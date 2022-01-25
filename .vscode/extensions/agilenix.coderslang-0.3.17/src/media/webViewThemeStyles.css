@@ -1,0 +1,49 @@
+@import "colors.css";
+
+.vscode-light .title {
+  color: var(--color-grey6);
+}
+
+.vscode-light .task-details__description-part {
+  color: var(--color-grey5);
+}
+
+
+.vscode-light .action-message > span,
+.vscode-light .task-details__description-part li > code,
+.vscode-light .task-details__description-part p > code {
+  color: var(--color-red1);
+  background-color: var(--color-grey3);
+}
+
+.vscode-light .submit-result__header {
+  color: var(--color-grey6);
+}
+
+.vscode-light .submit-result__error-message {
+  color: var(--color-grey5);
+}
+
+.vscode-light .test-result {
+  background-color: var(--color-grey1);
+}
+
+.vscode-light .test-result__header {
+  color: var(--color-grey5);
+}
+
+.vscode-light .toggler__switch {
+  background-color: var(--color-grey1);
+}
+
+.vscode-light .toggler__label {
+  color: var(--color-grey4);
+}
+
+.vscode-light .action-message {
+  color: var(--color-grey6);
+}
+
+.vscode-light .action-message.success {
+  color: var(--color-green3);
+}
